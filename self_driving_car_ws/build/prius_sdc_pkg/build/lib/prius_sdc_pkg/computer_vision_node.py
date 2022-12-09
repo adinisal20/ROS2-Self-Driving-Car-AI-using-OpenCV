@@ -35,7 +35,7 @@ class Video_feed_in(Node):
 
         frame = self.bridge.imgmsg_to_cv2(data,'bgr8') # performing conversion
 
-        Angle,Speed,img = 0.0, 0.0, frame
+        Angle,Speed,img = self.Car.drive_car(frame)
 
         self.velocity.angular.z = Angle
         self.velocity.linear.x = Speed      
