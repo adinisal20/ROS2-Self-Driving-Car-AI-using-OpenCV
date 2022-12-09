@@ -1,0 +1,29 @@
+[2.539s] Invoking command in '/home/aditya/self_driving_car_ws/src/prius_sdc_pkg': PYTHONPATH=/home/aditya/self_driving_car_ws/build/prius_sdc_pkg/prefix_override:/home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/prius_sdc_pkg build --build-base /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build install --record /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/install.log --install-scripts $base/lib/prius_sdc_pkg --single-version-externally-managed
+[2.726s] running egg_info
+[2.726s] writing ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/PKG-INFO
+[2.751s] writing dependency_links to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/dependency_links.txt
+[2.752s] writing entry points to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/entry_points.txt
+[2.752s] writing requirements to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/requires.txt
+[2.752s] writing top-level names to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/top_level.txt
+[2.811s] reading manifest file '../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/SOURCES.txt'
+[2.828s] writing manifest file '../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/SOURCES.txt'
+[2.828s] running build
+[2.828s] running build_py
+[2.831s] copying prius_sdc_pkg/driving_node.py -> /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg
+[2.831s] running install
+[2.832s] running install_lib
+[2.833s] copying /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/driving_node.py -> /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg
+[2.834s] byte-compiling /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/driving_node.py to driving_node.cpython-38.pyc
+[2.835s] running install_data
+[2.862s] creating /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/share/prius_sdc_pkg/launch
+[2.862s] copying launch/world.launch.py -> /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/share/prius_sdc_pkg/launch
+[2.863s] creating /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/share/prius_sdc_pkg/worlds
+[2.863s] copying worlds/test.world -> /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/share/prius_sdc_pkg/worlds
+[2.871s] running install_egg_info
+[2.872s] removing '/home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[2.872s] Copying ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg-0.0.0-py3.8.egg-info
+[2.887s] running install_scripts
+[2.902s] Installing driver_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[2.905s] Installing recorder_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[2.906s] writing list of installed files to '/home/aditya/self_driving_car_ws/build/prius_sdc_pkg/install.log'
+[2.922s] Invoked command in '/home/aditya/self_driving_car_ws/src/prius_sdc_pkg' returned '0': PYTHONPATH=/home/aditya/self_driving_car_ws/build/prius_sdc_pkg/prefix_override:/home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/prius_sdc_pkg build --build-base /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build install --record /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/install.log --install-scripts $base/lib/prius_sdc_pkg --single-version-externally-managed

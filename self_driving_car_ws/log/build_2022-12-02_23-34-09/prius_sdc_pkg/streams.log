@@ -1,0 +1,9 @@
+[0.510s] Invoking command in '/home/aditya/self_driving_car_ws/src/prius_sdc_pkg': PYTHONPATH=/home/aditya/self_driving_car_ws/build/prius_sdc_pkg/prefix_override:/home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/prius_sdc_pkg build --build-base /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build install --record /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/install.log --install-scripts $base/lib/prius_sdc_pkg --single-version-externally-managed
+[0.680s] running egg_info
+[0.681s] writing ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/PKG-INFO
+[0.681s] writing dependency_links to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/dependency_links.txt
+[0.681s] writing entry points to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/entry_points.txt
+[0.681s] writing requirements to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/requires.txt
+[0.681s] writing top-level names to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/top_level.txt
+[0.709s] error: package directory 'prius_sdc_pkg/GPS_Navigation' does not exist
+[0.723s] Invoked command in '/home/aditya/self_driving_car_ws/src/prius_sdc_pkg' returned '1': PYTHONPATH=/home/aditya/self_driving_car_ws/build/prius_sdc_pkg/prefix_override:/home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/prius_sdc_pkg build --build-base /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build install --record /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/install.log --install-scripts $base/lib/prius_sdc_pkg --single-version-externally-managed

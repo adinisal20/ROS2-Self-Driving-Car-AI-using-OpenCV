@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info
+writing ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/requires.txt
+writing top-level names to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/top_level.txt
+writing manifest file '../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build
+creating /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib
+creating /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg
+copying prius_sdc_pkg/__init__.py -> /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg
+running install
+running install_lib
+creating /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg
+copying /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/__init__.py -> /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg
+byte-compiling /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/share/ament_index
+creating /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/share/ament_index/resource_index
+creating /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/share/ament_index/resource_index/packages
+copying resource/prius_sdc_pkg -> /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/share/prius_sdc_pkg
+running install_egg_info
+Copying ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/aditya/self_driving_car_ws/build/prius_sdc_pkg/install.log'

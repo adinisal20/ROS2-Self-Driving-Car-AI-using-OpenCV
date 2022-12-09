@@ -1,0 +1,20 @@
+[2.942s] Invoking command in '/home/aditya/self_driving_car_ws/src/prius_sdc_pkg': PYTHONPATH=/home/aditya/self_driving_car_ws/build/prius_sdc_pkg/prefix_override:/home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/prius_sdc_pkg build --build-base /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build install --record /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/install.log --install-scripts $base/lib/prius_sdc_pkg --single-version-externally-managed
+[3.108s] running egg_info
+[3.109s] writing ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/PKG-INFO
+[3.256s] writing dependency_links to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/dependency_links.txt
+[3.257s] writing entry points to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/entry_points.txt
+[3.257s] writing requirements to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/requires.txt
+[3.258s] writing top-level names to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/top_level.txt
+[3.336s] reading manifest file '../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/SOURCES.txt'
+[3.420s] writing manifest file '../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/SOURCES.txt'
+[3.421s] running build
+[3.421s] running build_py
+[3.422s] running install
+[3.425s] running install_lib
+[3.430s] running install_data
+[3.432s] running install_egg_info
+[3.437s] removing '/home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[3.438s] Copying ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg-0.0.0-py3.8.egg-info
+[3.459s] running install_scripts
+[3.497s] writing list of installed files to '/home/aditya/self_driving_car_ws/build/prius_sdc_pkg/install.log'
+[3.514s] Invoked command in '/home/aditya/self_driving_car_ws/src/prius_sdc_pkg' returned '0': PYTHONPATH=/home/aditya/self_driving_car_ws/build/prius_sdc_pkg/prefix_override:/home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/prius_sdc_pkg build --build-base /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build install --record /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/install.log --install-scripts $base/lib/prius_sdc_pkg --single-version-externally-managed

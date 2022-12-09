@@ -1,0 +1,53 @@
+[2.590s] Invoking command in '/home/aditya/self_driving_car_ws/src/prius_sdc_pkg': PYTHONPATH=/home/aditya/self_driving_car_ws/build/prius_sdc_pkg/prefix_override:/home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/prius_sdc_pkg build --build-base /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build install --record /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/install.log --install-scripts $base/lib/prius_sdc_pkg --single-version-externally-managed
+[2.760s] running egg_info
+[2.760s] writing ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/PKG-INFO
+[2.822s] writing dependency_links to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/dependency_links.txt
+[2.823s] writing entry points to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/entry_points.txt
+[2.823s] writing requirements to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/requires.txt
+[2.823s] writing top-level names to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/top_level.txt
+[2.937s] package init file 'prius_sdc_pkg/config/__init__.py' not found (or not a regular file)
+[2.937s] reading manifest file '../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/SOURCES.txt'
+[2.968s] writing manifest file '../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/SOURCES.txt'
+[2.968s] running build
+[2.968s] running build_py
+[3.005s] copying prius_sdc_pkg/__init__.py -> /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg
+[3.005s] copying prius_sdc_pkg/computer_vision_node.py -> /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg
+[3.005s] copying prius_sdc_pkg/config.py -> /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg
+[3.006s] copying prius_sdc_pkg/Drive_Bot.py -> /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg
+[3.006s] creating /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Detection
+[3.007s] copying prius_sdc_pkg/Detection/__init__.py -> /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Detection
+[3.007s] creating /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Detection/Lanes
+[3.007s] copying prius_sdc_pkg/Detection/Lanes/lane_detection.py -> /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Detection/Lanes
+[3.007s] copying prius_sdc_pkg/Detection/Lanes/__init__.py -> /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Detection/Lanes
+[3.008s] copying prius_sdc_pkg/Detection/Lanes/colour_segmentation.py -> /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Detection/Lanes
+[3.008s] running install
+[3.009s] running install_lib
+[3.011s] copying /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/__init__.py -> /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg
+[3.012s] copying /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/computer_vision_node.py -> /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg
+[3.012s] creating /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Detection
+[3.012s] copying /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Detection/__init__.py -> /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Detection
+[3.013s] creating /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Detection/Lanes
+[3.013s] copying /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Detection/Lanes/lane_detection.py -> /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Detection/Lanes
+[3.013s] copying /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Detection/Lanes/__init__.py -> /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Detection/Lanes
+[3.014s] copying /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Detection/Lanes/colour_segmentation.py -> /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Detection/Lanes
+[3.014s] copying /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/config.py -> /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg
+[3.014s] copying /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Drive_Bot.py -> /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg
+[3.014s] byte-compiling /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/__init__.py to __init__.cpython-38.pyc
+[3.017s] byte-compiling /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/computer_vision_node.py to computer_vision_node.cpython-38.pyc
+[3.018s] byte-compiling /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Detection/__init__.py to __init__.cpython-38.pyc
+[3.018s] byte-compiling /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Detection/Lanes/lane_detection.py to lane_detection.cpython-38.pyc
+[3.019s] byte-compiling /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Detection/Lanes/__init__.py to __init__.cpython-38.pyc
+[3.019s] byte-compiling /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Detection/Lanes/colour_segmentation.py to colour_segmentation.cpython-38.pyc
+[3.022s] byte-compiling /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/config.py to config.cpython-38.pyc
+[3.023s] byte-compiling /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Drive_Bot.py to Drive_Bot.cpython-38.pyc
+[3.027s] running install_data
+[3.090s] running install_egg_info
+[3.094s] removing '/home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[3.095s] Copying ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg-0.0.0-py3.8.egg-info
+[3.115s] running install_scripts
+[3.156s] Installing computer_vision_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[3.157s] Installing driver_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[3.157s] Installing recorder_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[3.157s] Installing spawner_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[3.157s] writing list of installed files to '/home/aditya/self_driving_car_ws/build/prius_sdc_pkg/install.log'
+[3.176s] Invoked command in '/home/aditya/self_driving_car_ws/src/prius_sdc_pkg' returned '0': PYTHONPATH=/home/aditya/self_driving_car_ws/build/prius_sdc_pkg/prefix_override:/home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/prius_sdc_pkg build --build-base /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build install --record /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/install.log --install-scripts $base/lib/prius_sdc_pkg --single-version-externally-managed

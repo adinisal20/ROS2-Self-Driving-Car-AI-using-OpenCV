@@ -1,0 +1,32 @@
+[1.898s] Invoking command in '/home/aditya/self_driving_car_ws/src/prius_sdc_pkg': PYTHONPATH=/home/aditya/self_driving_car_ws/build/prius_sdc_pkg/prefix_override:/home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/prius_sdc_pkg build --build-base /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build install --record /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/install.log --install-scripts $base/lib/prius_sdc_pkg --single-version-externally-managed
+[2.287s] running egg_info
+[2.289s] writing ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/PKG-INFO
+[2.290s] writing dependency_links to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/dependency_links.txt
+[2.290s] writing entry points to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/entry_points.txt
+[2.292s] writing requirements to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/requires.txt
+[2.292s] writing top-level names to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/top_level.txt
+[2.498s] reading manifest file '../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/SOURCES.txt'
+[2.533s] writing manifest file '../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/SOURCES.txt'
+[2.533s] running build
+[2.533s] running build_py
+[2.534s] copying prius_sdc_pkg/Detection/Lanes/colour_segmentation.py -> /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Detection/Lanes
+[2.682s] running install
+[2.683s] running install_lib
+[2.911s] copying /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Detection/Lanes/colour_segmentation.py -> /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Detection/Lanes
+[2.959s] byte-compiling /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Detection/Lanes/colour_segmentation.py to colour_segmentation.cpython-38.pyc
+[2.962s]   File "/home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Detection/Lanes/colour_segmentation.py", line 4
+[2.962s]     import ...config
+[2.962s]            ^
+[2.962s] SyntaxError: invalid syntax
+[2.962s] 
+[2.963s] running install_data
+[2.964s] running install_egg_info
+[2.968s] removing '/home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[3.021s] Copying ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg-0.0.0-py3.8.egg-info
+[3.025s] running install_scripts
+[3.060s] Installing computer_vision_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[3.109s] Installing driver_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[3.125s] Installing recorder_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[3.126s] Installing spawner_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[3.127s] writing list of installed files to '/home/aditya/self_driving_car_ws/build/prius_sdc_pkg/install.log'
+[3.189s] Invoked command in '/home/aditya/self_driving_car_ws/src/prius_sdc_pkg' returned '0': PYTHONPATH=/home/aditya/self_driving_car_ws/build/prius_sdc_pkg/prefix_override:/home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/prius_sdc_pkg build --build-base /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build install --record /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/install.log --install-scripts $base/lib/prius_sdc_pkg --single-version-externally-managed

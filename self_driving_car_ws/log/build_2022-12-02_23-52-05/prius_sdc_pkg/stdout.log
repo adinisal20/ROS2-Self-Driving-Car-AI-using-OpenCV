@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/requires.txt
+writing top-level names to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/top_level.txt
+reading manifest file '../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying prius_sdc_pkg/Detection/Lanes/lane_detection.py -> /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Detection/Lanes
+running install
+running install_lib
+copying /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Detection/Lanes/lane_detection.py -> /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Detection/Lanes
+byte-compiling /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Detection/Lanes/lane_detection.py to lane_detection.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing computer_vision_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+Installing driver_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+Installing recorder_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+Installing spawner_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+writing list of installed files to '/home/aditya/self_driving_car_ws/build/prius_sdc_pkg/install.log'
