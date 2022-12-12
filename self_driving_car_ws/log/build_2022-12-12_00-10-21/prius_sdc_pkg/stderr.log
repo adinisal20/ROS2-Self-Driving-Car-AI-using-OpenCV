@@ -1,0 +1,5 @@
+  File "/home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Detection/Lanes/colour_segmentation.py", line 80
+    continue
+    ^
+SyntaxError: 'continue' not properly in loop
+

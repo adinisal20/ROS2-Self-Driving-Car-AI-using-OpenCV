@@ -1,0 +1,21 @@
+[3.068s] Invoking command in '/home/aditya/self_driving_car_ws/build/prius_sdc_pkg': PYTHONPATH=/home/aditya/self_driving_car_ws/build/prius_sdc_pkg/prefix_override:/home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build --no-deps install_data
+[3.722s] running develop
+[4.174s] running egg_info
+[4.175s] writing prius_sdc_pkg.egg-info/PKG-INFO
+[4.176s] writing dependency_links to prius_sdc_pkg.egg-info/dependency_links.txt
+[4.177s] writing entry points to prius_sdc_pkg.egg-info/entry_points.txt
+[4.179s] writing requirements to prius_sdc_pkg.egg-info/requires.txt
+[4.179s] writing top-level names to prius_sdc_pkg.egg-info/top_level.txt
+[4.362s] reading manifest file 'prius_sdc_pkg.egg-info/SOURCES.txt'
+[4.367s] writing manifest file 'prius_sdc_pkg.egg-info/SOURCES.txt'
+[4.578s] running build_ext
+[4.595s] Creating /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/site.py
+[4.605s] Creating /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius-sdc-pkg.egg-link (link to .)
+[4.609s] Installing computer_vision_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[4.610s] Installing driver_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[4.610s] Installing recorder_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[4.611s] Installing spawner_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[4.613s] 
+[4.613s] Installed /home/aditya/self_driving_car_ws/build/prius_sdc_pkg
+[4.613s] running install_data
+[4.743s] Invoked command in '/home/aditya/self_driving_car_ws/build/prius_sdc_pkg' returned '0': PYTHONPATH=/home/aditya/self_driving_car_ws/build/prius_sdc_pkg/prefix_override:/home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/aditya/self_driving_car_ws/build/prius_sdc_pkg/build --no-deps install_data

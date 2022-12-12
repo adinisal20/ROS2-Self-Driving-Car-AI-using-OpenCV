@@ -7,13 +7,13 @@ src = 0
 
 #white_regions
 hue_l = 0
-lit_l = 130
+lit_l = 225
 sat_l = 0
 
 #yellow_regions
 hue_l_y = 30
-hue_h_y = 43
-lit_l_y = 0
+hue_h_y = 33
+lit_l_y = 160
 sat_l_y = 0
 
 def on_hue_low_change(val):
@@ -62,11 +62,10 @@ def maskextract():
     
     mask_ = mask !=0
     dst = src*(mask_[:,:,None].astype(src.dtype))
-    if (debugging_L_ColorSeg):
-        cv2.imshow('white_regions', dst)
-        cv2.imshow('yellow_regions', dst_Y) 
 
-if (debugging_L_ColorSeg):
+    cv2.imshow('white_regions', dst)
+    cv2.imshow('yellow_regions', dst_Y) 
+
     cv2.namedWindow("white_regions", cv2.WINDOW_NORMAL)
     cv2.namedWindow("yellow_regions", cv2.WINDOW_NORMAL)
     cv2.createTrackbar("Hue_L", "white_regions", hue_l, 255, on_hue_low_change)
@@ -76,6 +75,7 @@ if (debugging_L_ColorSeg):
     cv2.createTrackbar("Hue_H_Y", "yellow_regions", hue_h_y, 255, on_hue_high_y_change)
     cv2.createTrackbar("Lit_L_Y", "yellow_regions", lit_l_y, 255, on_lit_low_y_change)
     cv2.createTrackbar("Sat_L_Y", "yellow_regions", sat_l_y, 255, on_sat_low_y_change)
+
 
 def clr_segment(img, lower_range, upper_range): 
     lower = np.array([lower_range[0], lower_range[1], lower_range[2]])
@@ -93,10 +93,12 @@ def segment_lanes (frame, min_area):
     hls = cv2.cvtColor(frame, cv2.COLOR_BGR2HLS)
     print("hls in segment_lanes: {}". format(hls))
     print("src in segment_lanes: {}". format(src))
-    white_regions = clr_segment(hls, np.array([hue_l, lit_l, sat_l]), np.arrray([255, 255, 255]))
-    yellow_regions = clr_segment(hls, np.array([hue_l_y, lit_l_y, sat_l_y]), np.array([hue_h_y, 255, 255]))
+    white_regions = clr_segment(hls, (hue_l, lit_l, sat_l), (255, 255, 255))
+    yellow_regions = clr_segment(hls, (hue_l_y, lit_l_y, sat_l_y), (hue_h_y, 255, 255))
+
     cv2.imshow("white_regions", white_regions)
     cv2.imshow("yellow_regions", yellow_regions)
+
 
     cv2.waitKey(1)
 

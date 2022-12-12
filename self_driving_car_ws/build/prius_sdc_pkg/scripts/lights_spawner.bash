@@ -1,0 +1,1 @@
+/home/aditya/self_driving_car_ws/src/prius_sdc_pkg/scripts/lights_spawner.bash

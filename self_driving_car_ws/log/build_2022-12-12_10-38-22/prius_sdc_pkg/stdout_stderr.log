@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing prius_sdc_pkg.egg-info/PKG-INFO
+writing dependency_links to prius_sdc_pkg.egg-info/dependency_links.txt
+writing entry points to prius_sdc_pkg.egg-info/entry_points.txt
+writing requirements to prius_sdc_pkg.egg-info/requires.txt
+writing top-level names to prius_sdc_pkg.egg-info/top_level.txt
+reading manifest file 'prius_sdc_pkg.egg-info/SOURCES.txt'
+writing manifest file 'prius_sdc_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/site.py
+Creating /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius-sdc-pkg.egg-link (link to .)
+Installing computer_vision_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+Installing driver_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+Installing recorder_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+Installing spawner_node script to /home/aditya/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+
+Installed /home/aditya/self_driving_car_ws/build/prius_sdc_pkg
+running install_data

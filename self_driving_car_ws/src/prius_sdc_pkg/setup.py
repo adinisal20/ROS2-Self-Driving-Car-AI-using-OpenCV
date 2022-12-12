@@ -17,10 +17,10 @@ det_l_module = 'prius_sdc_pkg/Detection/Lanes'
 # detec_l_c_module="prius_sdc_pkg/Detection/Lanes/c_Cleaning"
 # detec_l_d_module="prius_sdc_pkg/Detection/Lanes/d_LaneInfo_Extraction"
 
-det_s_module ="prius_sdc_pkg/Detection/Signs"
-detec_s_a_module="prius_sdc_pkg/Detection/Signs/Classification"
+# det_s_module ="prius_sdc_pkg/Detection/Signs"
+# detec_s_a_module="prius_sdc_pkg/Detection/Signs/Classification"
 
-detec_TL_module="prius_sdc_pkg/Detection/TrafficLights"
+# detec_TL_module="prius_sdc_pkg/Detection/TrafficLights"
 setup(
     name=package_name,
     version='0.0.0',
